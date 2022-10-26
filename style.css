@@ -1,0 +1,191 @@
+@import '/reset.css';
+
+@keyframes example {
+    from {background-color: rgb(0, 0, 0);}
+    to {background-color: rgba(168, 168, 168, 0.562);}
+    }
+body {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    margin: auto;
+    background-color: rgba(168, 168, 168, 0.562);
+    animation-name: example;
+    animation-duration: 4s;
+    
+}
+
+@keyframes logo_anim {
+    0%{right: -200px;}
+    100%{right: 400px;;}
+    }
+.header_content_img {
+    background: url(../img/images.png) no-repeat right;
+    position: absolute;
+    width: 130px;
+    height:130px;
+    right: 400px;
+    border-radius: 20px;
+    animation-name:logo_anim;
+    animation-duration: 2s;
+}
+@keyframes logotext_anim {
+    0%{margin-left: -200px;}
+    100%{margin-left: 100px;}
+    }
+.header_content {
+    color: aliceblue;
+    margin-left: 100px;
+    padding-top: 100px;
+    animation-name:logotext_anim;
+    animation-duration: 2s;
+}
+@keyframes anim_go {
+    0%{margin-left: -5000px;}
+    100%{margin-left: 0px;}
+    }
+.real_anim{
+    background: url(../img/226037.jpeg)0 0/auto 100%;
+    height: 50px;
+    animation-name:anim_go;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate ;
+}
+
+h1{
+    font-size: 70px;
+}
+h3{
+    font-size: 35px;
+}
+h2 {
+    font-size: 25px;
+}
+
+.header {
+    position: relative;
+}
+.header_nav {
+    padding-left: 50px;
+}
+.header_nav_list {
+    display: flex;
+    height: 50px;
+}
+.header_nav_list li{
+    margin: 15px;
+    font-size: 20px;
+}
+.header_img {
+    background: url(../img/1644406741_1-phonoteka-org-p-fon-dlya-fotoshopa-chernii-s-zolotom-1.jpeg) center fixed;
+    height: 500px;
+    width: 100%;
+    
+}
+
+
+
+.main {
+    margin-top: 100px;
+    /* border: 1px solid black; */
+}
+.content_table{
+    margin: auto;
+
+}
+.content_conacnts {
+    width: 600px;
+    height: 400px;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 00px;
+}
+.content_img {
+    /* background: url(/img/DSCF4809.jpg) 0 0/100% auto no-repeat;
+    border-radius: 8px; */
+    width: 600px;
+    height: 800px;
+}
+.content_img div {
+    background: url(../img/DSCF4809.jpg) 0 0/100% auto no-repeat;
+    border-radius: 8px;
+    width: 100%;
+    height: 100%;
+}
+.content_text {
+    width: 600px;
+    height: 400px;
+    text-align: center;
+    padding-top: 200px;
+    
+}
+.content_text p{
+    font-size: 25px;
+}
+.abautMe {
+    display: flex;
+    max-width: 1200px;
+    height: 800px;
+    margin: auto;
+    margin-top: 50px;
+}
+.abautMe p {
+    font-size: 25px;
+    text-align: center;
+    padding-top: 400px;
+
+}
+.abautMe p {
+    width: 600px;
+    height: 800px;
+}
+.aboutMe_onefoto{
+    background: url(../img/GEIL6055.JPG) 0 0/100% auto no-repeat;;
+    width: 600px;
+    height: 800px;
+    border-radius: 8px;
+}
+.abautMe_img {
+    max-width: 1200px;
+    height: 800px;
+    margin: auto;
+    margin-top: 50px;
+    
+}
+.abautMe_content{
+    width: 100%;
+}
+.content_img_abaut{
+
+    background: url(../img/IMG_8074.JPG) 0 0/100% auto no-repeat;
+    border-radius: 8px;
+    width: 600px;
+    height: 800px;
+
+
+
+}
+.content_text_abaut{
+    font-size: 25px;
+    text-align: center;
+    padding-top: 200px;
+}
+.footer {
+
+    font-size: 25px;
+    text-align: center;
+    color: aliceblue;
+    margin-top: 100px;
+    height: 200px;
+    background: url(../img/1644406741_1-phonoteka-org-p-fon-dlya-fotoshopa-chernii-s-zolotom-1.jpeg) fixed;
+    
+} 
+.footer p {
+    height: 200px;
+    padding-top: 90px;
+}
+.foterone{
+    background: url(../img/1644406741_1-phonoteka-org-p-fon-dlya-fotoshopa-chernii-s-zolotom-1.jpeg) fixed;
+    height: 100px;
+    margin-top: 50px;
+    }
+

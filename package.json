@@ -1,0 +1,31 @@
+{
+  "name": "core-css-layout-site",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Продолжим создавать оригинальные веб-страницы. Теперь тебе предстоит создать собственный сайт!",
+  "main": ".eslintrc.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/electrofax/core-css-layout-site.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/electrofax/core-css-layout-site/issues"
+  },
+  "homepage": "https://github.com/electrofax/core-css-layout-site#readme",
+  "devDependencies": {
+    "@html-eslint/eslint-plugin": "^0.15.0",
+    "@html-eslint/parser": "^0.15.0",
+    "eslint": "^8.26.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0"
+  },
+  "dependencies": {
+    "es-html-parser": "^0.0.8"
+  }
+}
