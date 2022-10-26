@@ -1,4 +1,4 @@
-@import '/reset.css';
+@import 'reset.css';
 
 @keyframes example {
     from {background-color: rgb(0, 0, 0);}
